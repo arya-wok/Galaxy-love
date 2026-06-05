@@ -80,7 +80,7 @@ const galaxyParameters = {
 };
 
 const defaultHeartImages = Array.from({ length: 4 }, (_, i) => `images/img${i + 1}.jpg`);
-
+const defaultHeartImages = Array.from({ length: 4 }, (_, i) => `images/gif${i + 1}.gif`);
 const heartImages = [
   ...(window.dataCCD?.data?.heartImages || []),
   ...defaultHeartImages,
